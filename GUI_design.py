@@ -1,5 +1,5 @@
 import tkinter
-from tkinter import filedialog,Tk, Label, Frame, PhotoImage, StringVar, IntVar, SUNKEN, Entry, Button, Checkbutton, Menu, mainloop
+from tkinter import filedialog, Tk, Label, Frame, PhotoImage, StringVar, IntVar, SUNKEN, Entry, Button, Checkbutton, Menu, mainloop
 import tkinter.messagebox as tmsg
 import sqlite3
 from account_creation import register_user
@@ -32,7 +32,7 @@ log = Logger(desktop + "/Baby Camera Footage/log.txt")
 def open_file():
     """
     This function will decrypt and open the file in the GUI. Once the file is done 
-    playing the window will close. The file will then be encrypted aand unable to
+    playing the window will close. The file will then be encrypted and unable to
     be opened again until the program is ran again.
     """
     if user_access():
@@ -47,7 +47,7 @@ def open_file():
             play(filepath)
             Encrypt(filepath,key)
         except Exception:
-            print("Error")
+            print("User not verified!")
 
 def user_access():
     """

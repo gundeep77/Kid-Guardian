@@ -1,3 +1,4 @@
 credentials
-__pycache__/
+__pycache__
 userdata.db
+.DS_Store
