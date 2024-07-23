@@ -5,3 +5,5 @@ This app is designed for parents to easily monitor their baby via camera. You wi
 SPACE - End the video feed
 S - Take screenshot
 ESC - Disable the video feed temporarily
+
+![1721758349979](image/README/1721758349979.png)
